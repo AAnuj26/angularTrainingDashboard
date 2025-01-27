@@ -1,0 +1,91 @@
+<!--
+profile picture
+
+language and time
+
+social accounts
+
+general information
+  firstname
+  lastname
+  email
+  phonenumber
+  birthdate
+  gender
+
+password information
+
+Edit experience
+Edit education
+-->
+<section class="dashboard-component-section">
+  <mat-grid-list cols="3" gutterSize="1rem" rowHeight="50px">
+    <mat-grid-tile colspan="1" rowspan="13">
+      <div class="firstcol">
+        <mat-grid-list cols="1" rowHeight="50px" gutterSize="1rem">
+          <mat-grid-tile rowspan="2">
+            <mat-card appearance="outlined">
+              <mat-card-content>Profile</mat-card-content>
+            </mat-card>
+          </mat-grid-tile>
+          <mat-grid-tile rowspan="4">
+            <mat-card appearance="outlined">
+              <mat-card-content>Language & Time</mat-card-content>
+            </mat-card>
+          </mat-grid-tile>
+          <mat-grid-tile rowspan="7">
+            <mat-card appearance="outlined">
+              <mat-card-content>Social accounts</mat-card-content>
+            </mat-card>
+          </mat-grid-tile>
+        </mat-grid-list>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="2" rowspan="13">
+      <div class="firstcol">
+        <mat-grid-list cols="1" rowHeight="50px" gutterSize="1rem">
+          <mat-grid-tile rowspan="10">
+            <mat-card appearance="outlined">
+              <mat-card-content
+                >General information
+                <!-- general information
+                firstname
+                lastname
+                email
+                phonenumber
+                birthdate
+                gender -->
+              </mat-card-content>
+            </mat-card>
+          </mat-grid-tile>
+          <mat-grid-tile rowspan="3">
+            <mat-card appearance="outlined">
+              <mat-card-content>Password information</mat-card-content>
+            </mat-card>
+          </mat-grid-tile>
+        </mat-grid-list>
+      </div>
+    </mat-grid-tile>
+  </mat-grid-list>
+  <mat-grid-list cols="2" gutterSize="1rem" rowHeight="100px">
+    <mat-grid-tile colspan="1" rowspan="5">
+      <div class="firstcol">
+        <mat-card class="card" appearance="outlined">
+          <mat-card-content>Experience</mat-card-content>
+        </mat-card>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="1" rowspan="5">
+      <mat-card class="card" appearance="outlined">
+        <mat-card-content>Education</mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="2" rowspan="5">
+      <div class="firstcol">
+        <mat-card class="card" appearance="outlined">
+          <mat-card-content>Professional Status</mat-card-content>
+        </mat-card>
+      </div>
+    </mat-grid-tile>
+  </mat-grid-list>
+</section>
