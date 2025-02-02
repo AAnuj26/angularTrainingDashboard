@@ -18,6 +18,48 @@ password information
 Edit experience
 Edit education
 -->
+<form [formGroup]="userForm">
+  <mat-grid-list
+    [cols]="GridListColSize"
+    gutterSize="1rem"
+    rowHeight="50px"
+    style="margin-top: 2rem"
+  >
+    <mat-grid-tile [colspan]="GridTileColSize" rowspan="3">
+      <mat-form-field appearance="outline">
+        <mat-label>Outline form field</mat-label>
+        <input matInput formControlName="name" placeholder="Placeholder" />
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+        <mat-hint>Hint</mat-hint>
+      </mat-form-field>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="GridTileColSize" rowspan="3">
+      <mat-form-field appearance="outline">
+        <mat-label>Outline form field</mat-label>
+        <input matInput formControlName="email" placeholder="Placeholder" />
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+        <mat-hint>Hint</mat-hint>
+      </mat-form-field>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="GridTileColSize" rowspan="3">
+      <mat-form-field appearance="outline">
+        <mat-label>Outline form field</mat-label>
+        <input matInput formControlName="age" placeholder="Placeholder" />
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+        <mat-hint>Hint</mat-hint>
+      </mat-form-field>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="GridTileColSize" rowspan="3">
+      <mat-form-field appearance="outline">
+        <mat-label>Outline form field</mat-label>
+        <input matInput formControlName="phone" placeholder="Placeholder" />
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+        <mat-hint>Hint</mat-hint>
+      </mat-form-field>
+    </mat-grid-tile>
+  </mat-grid-list>
+</form>
+
 <section class="dashboard-component-section">
   <mat-grid-list cols="3" gutterSize="1rem" rowHeight="50px">
     <mat-grid-tile colspan="1" rowspan="13">
